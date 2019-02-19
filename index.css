@@ -1,0 +1,36 @@
+#main {
+  background-color: #fbead4;
+  color: #1c0f00;
+  padding: 0% 10%;
+  text-align: center;
+  font-family: Georgia, serif;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 2%;
+}
+#accomplishments,
+#refer {
+  text-align: justify;
+}
+ {
+  text-align: justify;
+}
+@media (min-width: 501px) {
+  #tribute-info {
+    padding: 5% 10%;
+  }
+  #quote {
+    padding: 0% 30%;
+  }
+}
+@media (max-width: 500px) {
+  #tribute-info {
+    padding: 5% 1%;
+  }
+  #quote {
+    padding: 0% 10%;
+  }
+}
